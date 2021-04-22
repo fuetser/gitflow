@@ -88,6 +88,7 @@ requests.get("http://syb-blog.herokuapp.com/api/users/Username", params={"token"
 | username |  string   |        да      |
 | password |  string   |        да      |
 |   email  |  string   |        да      |
+
 Обратите внимание на то, что поля username и email должны быть уникальными.
 ```python
 import requests
@@ -142,6 +143,7 @@ requests.get("http://syb-blog.herokuapp.com/api/users", json={
 | username |  string   |       нет      |
 | password |  string   |       нет      |
 |   email  |  string   |       нет      |
+
 Изменение происходит с помощью PUT запроса, при это должно быть передано хотя бы одно из перечисленных полей
 ```python
 import requests
